@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(name='HandheldFriendly', content='True')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Umair Abid
+    meta(name='description', content='')
+    link(href='/main.css', rel='stylesheet', type='text/css')
+  body
+    section
+      sidebar
+        h1 Umair Abid
+        h2 Software Engineer
+        h2.section-head Personal Info
+        each info in contactInfo
+          h4 #{info.name}
+          p #{info.value}
+        h2.section-head Skills
+        each skill in skills
+          .skill-label #{skill.name}
+          .skill
+            .skill-percentage(class=skill.level)
+      article
+        p #{summary}
+        h2 Experience
+
+    

@@ -1,0 +1,78 @@
+section {
+  width: 990px;
+  height: 1400px;
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+
+  sidebar {
+    width: 30%;
+    height: 100%;
+    background-color: #003d74;
+    padding: 20px 0;
+    color: #fff;
+
+    h1 {
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-weight: normal;
+      padding: 0 20px;
+      margin-bottom: 20px;
+    }
+
+    h2.section-head {
+      background-color: rgba($color: #000, $alpha: 0.3);
+      padding: 0 20px;
+      font-weight: bold;
+      line-height: 2.5rem;
+      margin: 10px 0;
+    }
+
+    h4, p {
+      padding: 0 20px;
+    }
+
+    p {
+      margin-bottom: 10px;
+      overflow-wrap: break-word;
+    }
+
+    .skill-label {
+      padding: 0 20px;
+    }
+
+    .skill {
+      height: 14px;
+      widows: 100%;
+      background-color: rgba($color: #000, $alpha: 0.3);
+      margin: 10px 20px;
+
+      .skill-percentage {
+        background-color: #fff;
+        height: 100%;
+
+        &.two { width: 20% }
+        &.four { width: 40% }
+        &.six { width: 60% }
+        &.eight { width: 80% }
+        &.ten { width: 100% }
+      }
+    }
+  }
+
+  article {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+
+    h2 {
+      color: #003d74;
+      line-height: 40px;
+      border-top: 1px #d5d6d6 solid;
+      border-bottom: 1px #d5d6d6 solid;
+      margin: 10px 0;
+    }
+  }
+}
