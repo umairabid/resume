@@ -6,8 +6,12 @@ html
     title Umair Abid
     meta(name='description', content='')
     link(href='/main.css', rel='stylesheet', type='text/css')
+    script(src='https://code.jquery.com/jquery-2.2.4.min.js' integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=' crossorigin='anonymous')
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js')
+    script(type='text/javascript' src='https://html2canvas.hertzen.com/dist/html2canvas.js')
+    script(type='text/javascript' src='./main.js')
   body
-    section
+    section.html-content
       sidebar
         h1 Umair Abid
         h2 Software Engineer
@@ -23,5 +27,25 @@ html
       article
         p #{summary}
         h2 Experience
+        each e in experiences
+          .section
+            .dates #{e.from} - #{e.to}
+            .content
+              h3 #{e.title}
+              i #{e.company}
+              ul
+                each i in e.summary
+                  li #{i}
+        h2 Education
+        each e in educations
+          .section
+            .dates #{e.from} - #{e.to}
+            .content
+              h3 #{e.institute}
+              ul
+                each i in e.summary
+                  li #{i}
+
+
 
     

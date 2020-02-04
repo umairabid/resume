@@ -74,18 +74,6 @@ module.exports = {
       ]
     },
     {
-      from: "2019-06",
-      to: "present",
-      title: "Senior Software Engineer",
-      company: "KeepTruckin",
-      summary: [
-        "Redesigned the incident detail feature which fixed all the sync issues of different incident's videos playing together by creating a service to provide single source of truth.",
-        "Refactored graph component of incident screen to use interpolated to give accurate speed and time information at any given point of time in video",
-        "Redesigned the layout to allow components to react to changes in state of application by extensively using rxjs.",
-        "Introduced and planned hackathons for better team collaboration and growth"
-      ]
-    },
-    {
       from: "2018-11",
       to: "2019-05",
       title: "Senior Software Engineer",
@@ -109,5 +97,16 @@ module.exports = {
         "I participated in discovery calls with our sales team. I also won half a dozen projects through technical interviews and assignments. Some of the projects I won expanded upto team of 6 developers and QA."
       ]
     },
+  ],
+  educations: [
+    {
+      from: "2015-09",
+      to: "2019-09",
+      institute: "Virtual University of Pakistan",
+      summary: [
+        "Major in Software Engineering",
+        "CGPA 3.49"
+      ]
+    }
   ]
 }

@@ -74,5 +74,23 @@ section {
       border-bottom: 1px #d5d6d6 solid;
       margin: 10px 0;
     }
+
+    .section {
+      display: flex;
+      width: 100%;
+
+      .dates {
+        width: 15%;
+      }
+
+      .content {
+        width: 85%;
+
+        ul {
+          margin-left: 15px;
+          padding-left: 0;
+        }
+      }
+    }
   }
 }
