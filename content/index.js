@@ -9,6 +9,10 @@ module.exports = {
       value: 'umairac90@gmail.com'
     },
     {
+      name: 'LinkedIn',
+      value: 'https://www.linkedin.com/in/umairabid/'
+    },
+    {
       name: 'GitHub',
       value: 'http://github.com/umairabid'
     },
@@ -17,12 +21,12 @@ module.exports = {
       value: 'https://stackoverflow.com/users/975932/umair-abid'
     },
     {
-      name: 'Website',
-      value: 'https://umairabid.com'
+      name: 'HackerRank',
+      value: 'https://www.hackerrank.com/umairabid'
     },
     {
-      name: 'LinkedIn',
-      value: 'https://www.linkedin.com/in/umairabid/'
+      name: 'Website',
+      value: 'https://umairabid.com'
     },
   ],
   skills: [
@@ -59,7 +63,7 @@ module.exports = {
       level: 'six'
     },
   ],
-  summary: "Full stack developer with 6+ years of experience in developing web applications. Capable of thinking design and implementing architectures of both back-end and front-end, small to medium applications. An avid learner and challenge oriented engineer with a 100 % success ratio of delivering projects and client satisfaction.",
+  summary: "Full stack developer with 6+ years of experience in developing web applications. Capable of designing and implementing architecture of both web clients and APIs for a small to medium level application. An avid learner and challenge oriented engineer, motivated by solving business problem and customer success. Advocates simplicity, strong typing and functional approach.",
   experiences: [
     {
       from: "2019-06",
@@ -67,9 +71,11 @@ module.exports = {
       title: "Senior Software Engineer",
       company: "KeepTruckin",
       summary: [
-        "Redesigned the incident detail feature which fixed all the sync issues of different incident's videos playing together by creating a service to provide single source of truth.",
-        "Refactored graph component of incident screen to use interpolated to give accurate speed and time information at any given point of time in video",
-        "Redesigned the layout to allow components to react to changes in state of application by extensively using rxjs.",
+        "Currently working in fleet view team where we are using google maps, pusher and service workers to provide real time location and real time information updates of fleet to fleet managers",
+        "We also used web workers to generate custom map markers to reduce map loading time for 8 seconds to 2 seconds",
+        "Redesigned the incidents feature which fixed all the sync issues of different incident's videos playing together by creating a service to provide single source of truth.",
+        "Refactored graph component of incidents feature by using interpolated data to give accurate speed and time information at any given point of time in video",
+        "Redesigned the layout to allow subsequent components to react to changes in state of application by extensively using rxjs.",
         "Introduced and planned hackathons for better team collaboration and growth"
       ]
     },

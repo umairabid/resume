@@ -1,16 +1,36 @@
+$primary_color: #003d74;
+$secondry_color: #fff;
+
+#download-pdf {
+  color: $secondry_color;
+  text-decoration: none;
+  background: rgb(28, 184, 65);
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+
 section {
   width: 990px;
   height: 1400px;
-  background-color: #fff;
+  background-color: $secondry_color;
   display: flex;
   margin: auto;
+  position: relative;
+  overflow:visible !important;
 
   sidebar {
     width: 30%;
     height: 100%;
-    background-color: #003d74;
+    background-color: $primary_color;
     padding: 20px 0;
-    color: #fff;
+    color: $secondry_color;
 
     h1 {
       padding: 0 20px;
@@ -30,13 +50,15 @@ section {
       margin: 10px 0;
     }
 
-    h4, p {
+    h4, p, a {
       padding: 0 20px;
+      display: block;
     }
 
-    p {
+    p, a {
       margin-bottom: 10px;
       overflow-wrap: break-word;
+      color: $secondry_color;
     }
 
     .skill-label {
@@ -50,7 +72,7 @@ section {
       margin: 10px 20px;
 
       .skill-percentage {
-        background-color: #fff;
+        background-color: $secondry_color;
         height: 100%;
 
         &.two { width: 20% }
@@ -68,7 +90,7 @@ section {
     padding: 20px;
 
     h2 {
-      color: #003d74;
+      color: $primary_color;
       line-height: 40px;
       border-top: 1px #d5d6d6 solid;
       border-bottom: 1px #d5d6d6 solid;
