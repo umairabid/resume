@@ -23,55 +23,60 @@ module.exports = {
     {
       name: 'LeetCode',
       value: 'https://leetcode.com/umairabid/'
-    },
-    {
-      name: 'HackerRank',
-      value: 'https://www.hackerrank.com/umairabid'
-    },
-    {
-      name: 'Website',
-      value: 'https://umairabid.com'
-    },
+    }
   ],
   skills: [
-    {
-      name: 'Javascript',
-      level: 'ten'
-    },
     {
       name: 'Ruby on Rails',
       level: 'eight'
     },
     {
-      name: 'ReactJs',
-      level: 'ten'
-    },
-    {
-      name: 'VueJS',
-      level: 'six'
-    },
-    {
-      name: 'Angular',
+      name: 'Javascript',
       level: 'eight'
     },
     {
-      name: 'Git',
-      level: 'eight'
-    },
-    {
-      name: 'Mysql',
-      level: 'six'
+      name: 'AWS',
+      level: 'seven'
     },
     {
       name: 'Postgres',
       level: 'eight'
     },
+
+    {
+      name: 'Mysql',
+      level: 'six'
+    },
+    {
+      name: 'Angular',
+      level: 'seven'
+    },
+    {
+      name: 'ReactJs',
+      level: 'six'
+    },
+    {
+      name: 'Git',
+      level: 'eight'
+    },
   ],
-  summary: "Full stack developer with 6+ years of experience in developing web applications. Capable of designing and implementing architecture of both web clients and APIs for a small to medium level application. An avid learner and challenge oriented engineer, motivated by solving business problem and customer success. Advocates simplicity, strong typing and functional approach.",
+  summary: "Full stack, bankend focusd developer with 6+ years of experience in developing web applications. Capable of designing and implementing architecture of both web clients and APIs for a small to medium level application. An avid learner and challenge oriented engineer, motivated by solving business problem and customer success. Advocates simplicity, strong typing and functional approach.",
   experiences: [
     {
-      from: "2020-05",
+      from: "2022-09",
       to: "Present",
+      title: "Senior Software Engineer",
+      company: "Event Temple Inc.",
+      summary: [
+        'Led integrations and partnerships development efforts which contributed to increased sales and leads',
+        'Built and designed background sync jobs with ability to sync upto 100k records every hour',
+        'Improved and corrected invoice summary calculation process by translating the process into native sql, resulting in 150% performace improvment',
+        'Redesigned critical external data synchronization flows to limit database connections, memory allocation and end user reporting'
+      ]
+    },
+    {
+      from: "2020-05",
+      to: "2022-09",
       title: "Senior Software Engineer",
       company: "Rise People Inc.",
       summary: [
@@ -90,7 +95,6 @@ module.exports = {
         'Designed architecture for fleet manager dashboard, to provide real time position and movement of fleet with no noticable lag and maximum accuracy',
         'Redesigned app container with event driven system to allow subsequent components to capture global app state changes',
         'Refactored vehicle monitoring and incidents dashboard to build accurate visualizations',
-        'Introduced and planned hackathons for better team collaboration and growth'
       ]
     },
     {
@@ -101,7 +105,6 @@ module.exports = {
       summary: [
         "Redesigned lead pipeline automated tasks to reduce the CPU consumption from 80% max usage to 20% max usage of workers",
         "Designed and developed value added feature, appointment scheduler (like calendly) for the product, which gave an edge over competitors and won new customers.",
-        "Customized and integrated email builder and built SMS builder to create marketing templates",
       ]
     },
     {
@@ -109,13 +112,7 @@ module.exports = {
       to: "2018-10",
       title: "Senior Software Engineer",
       company: "Tkxel",
-      summary: [
-        "Led development of people analytical tool involving cruching personal personality traits to calculate organization wide trends. Helped our client to realize their vision and secure funding",
-        "Managed SDLC of 7 projects and led them to successful completion",
-        "Worked with sales team in pre sales phase to win projects for Tkxel",
-        "Enabled junior developers to take on ownership on projects and communication",
-        "Actively contributed to Javascript and Ruby on Rails knowledge groups to lift org wide skills level"
-      ]
+      summary: []
     },
   ],
   educations: [

@@ -11,7 +11,7 @@ html
     script(type='text/javascript' src='https://html2canvas.hertzen.com/dist/html2canvas.js')
     script(type='text/javascript' src='main.js')
   body
-    a#download-pdf(href='resume.pdf' target='_blank') Download PDF
+    
     section.html-content
       sidebar
         h1 Umair Abid
@@ -23,7 +23,7 @@ html
             a(href=info.value target="_blank") #{info.value}
           else
             p #{info.value}
-            
+
         h2.section-head Skills
         each skill in skills
           .skill-label #{skill.name}
@@ -50,7 +50,3 @@ html
               ul
                 each i in e.summary
                   li #{i}
-
-
-
-    
