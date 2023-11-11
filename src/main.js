@@ -1,6 +1,5 @@
 import "./reset.scss";
 import "./styles.scss";
-import "./index.pug";
 
 function CreatePDFfromHTML() {
   var width = $(".html-content").width();

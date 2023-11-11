@@ -1,18 +1,12 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const content = require("./content");
 
 module.exports = {
-	mode: 'production',
+	mode: 'development',
 	entry: './src/main.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 9000
+    path: path.resolve(__dirname, 'public/dist')
   },
   module: {
     rules: [
@@ -23,20 +17,6 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
-      }, 
-      {
-        test: /\.pug/,
-        use: [
-          "file-loader?name=[name].html",
-          "extract-loader",
-          "html-loader",
-          {
-            loader: "pug-html-loader",
-             options: {
-              data: content
-            }
-          }
-        ]
       }
 	  ]
   },
