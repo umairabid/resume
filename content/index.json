@@ -63,7 +63,7 @@
       "level": "eight"
     }
   ],
-  "summary": "Full stack, bankend focusd developer with 6+ years of experience in developing web applications. Capable of designing and implementing architecture of both web clients and APIs for a small to medium level application. An avid learner and challenge oriented engineer, motivated by solving business problem and customer success. Advocates simplicity, strong typing and functional approach.",
+  "summary": "Full Stack engineer with a backend focus, specializing in web application development. Since 2014, I've designed architectures that directly contributed to winning million-dollar deals, reduced support tickets by 80% monthly, and brought down average request time to under 80ms. I'm a challenge-oriented engineer motivated by solving business problems and customer success. Strong advocate for simplicity, strong typing, and a functional approach.",
   "experiences": [
     {
       "from": "2022-09",
@@ -71,11 +71,12 @@
       "title": "Senior Software Engineer",
       "company": "Event Temple Inc.",
       "summary": [
-        "Led integrations and partnerships development efforts which contributed to increased sales and leads",
-        "Built and designed background sync jobs with ability to sync upto 100k records every hour",
-        "Improved and corrected invoice summary calculation process by translating the process into native sql, resulting in 150% performace improvment",
-        "Redesigned critical external data synchronization flows to limit database connections, memory allocation and end user reporting"
-      ]
+        "Using pganalyze, oprimized critical endpoints to bring average api transactions time from 250ms to under 60ms through various optimizations and refactors.",
+        "Revamped background synchronization operations by refining entity lookup logic and implementing dual connections, resolving complexities within two weeks and positively impacting a million-dollar sale.",
+        "Rectified rounding issues in price calculations by reverse engineering accounting software algorithms, resolving a critical bug for a major client.",
+        "Optimized background jobs, reducing memory usage and database queries. Implemented Sidekiq batches, eager loading, and resolved n+1 issues, boosting job throughput by 40% with consistent memory allocation."
+      ],
+      "skills": ["Ruby on Rails", "Postgres", "AWS", "Heroku", "AngularJS", "NewRelic", "PgAnalyze"]
     },
     {
       "from": "2020-05",
@@ -83,11 +84,11 @@
       "title": "Senior Software Engineer",
       "company": "Rise People Inc.",
       "summary": [
-        "Refactored benefits admin dashboard to build employee summaries by crunching data from 3 different services to bring down max load time from 15 seconds to 650ms",
-        "Refactored entire volume calculation service to cover incorporate complex business rules and brought down support requests by 80%",
-        "Contributed to org wide event sourcing architecture to integrate separate channels for temportal and linear data channels, without disrupting existing services",
-        "Acted as devops deputy for my team to deal with infra level blockers"
-      ]
+        "Restructured benefits admin dashboard to generate employee summaries by consolidating data from three services, reducing the maximum load time from 15 seconds to 650ms.",
+        "Overhauled the volume calculation service to include intricate business rules, resulting in an 80% reduction in support requests.",
+        "Contributed to the organization-wide event sourcing architecture, seamlessly integrating separate channels for temporal and linear data without disrupting existing services."
+      ],
+      "skills": ["Ruby on Rails", "Laravel", "AWS", "Postgres", "AngularJS", "Cloudwatch"]
     },
     {
       "from": "2019-06",
@@ -95,10 +96,11 @@
       "title": "Senior Software Engineer",
       "company": "KeepTruckin",
       "summary": [
-        "Designed architecture for fleet manager dashboard, to provide real time position and movement of fleet with no noticable lag and maximum accuracy",
-        "Redesigned app container with event driven system to allow subsequent components to capture global app state changes",
-        "Refactored vehicle monitoring and incidents dashboard to build accurate visualizations"
-      ]
+        "Designed architecture for fleet manager dashboard, to provide real time position and movement of fleet with no noticable lag and maximum accuracy.",
+        "Redesigned app container with event driven system to allow subsequent components to capture global app state changes.",
+        "Refactored vehicle monitoring and incidents dashboard to build accurate visualizations."
+      ],
+      "skills": ["AngularJS", "d3", "Google Maps", "Ruby on Rails"]
     },
     {
       "from": "2018-10",
@@ -108,14 +110,8 @@
       "summary": [
         "Redesigned lead pipeline automated tasks to reduce the CPU consumption from 80% max usage to 20% max usage of workers",
         "Designed and developed value added feature, appointment scheduler (like calendly) for the product, which gave an edge over competitors and won new customers."
-      ]
-    },
-    {
-      "from": "2014-04",
-      "to": "2018-10",
-      "title": "Senior Software Engineer",
-      "company": "Tkxel",
-      "summary": []
+      ],
+      "skills": ["Java", "Mysql", "AWS", "ReactJS"]
     }
   ],
   "educations": [

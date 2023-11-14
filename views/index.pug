@@ -41,6 +41,9 @@ html
               ul
                 each i in e.summary
                   li #{i}
+              .skills
+                strong Skills: 
+                span #{e.skills.join(', ')}
         h2 Education
         each e in educations
           .section
